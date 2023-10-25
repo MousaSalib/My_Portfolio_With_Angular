@@ -1,0 +1,20 @@
+<div class="card" style="max-width: 100%;">
+  <div class="row g-0" *ngFor="let data of aboutMeDetails">
+    <div class="col-md-4">
+      <img [src]="data.title" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title">{{data.fullName}}.</h2>
+        <h5 class="card-text">I am from {{data.country}}, {{data.state}}.</h5>
+        <h5 class="card-text">{{data.age}}.</h5>
+        <h5 class="card-text">I am {{data.theAge}} years old.</h5>
+        <h5 class="card-text">{{data.experience}}.</h5>
+        <h5 class="card-text">{{data.achievements}} branch Minya.</h5>
+        <h5 class="card-text">{{data.levelOfEnglish}}.</h5>
+        <h5 class="card-text">{{data.description}}.</h5>
+
+      </div>
+    </div>
+  </div>
+</div>
