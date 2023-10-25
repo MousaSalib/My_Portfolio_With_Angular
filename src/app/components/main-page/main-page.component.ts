@@ -10,7 +10,7 @@ export class MainPageComponent {
     {
       imagePath: "assets/Media/300825098_3237118913169130_3519148869853743918_n.jpg",
       Name: "Mousa Salib",
-      job: "front end web developer using {React && Angular}"
+      job: "full stack web developer {{ MEARN }}"
     }
   ]
 
